@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>组件管理</title>
+    <script src="setting.bundle.js"></script>
+</head>
+
+<body>
+    <div id="setting_main_container">
+        <div id="setting_pagetop">
+            <h2 id="setting_pagetop_title" class="font_type">组件管理</h2>
+        </div>
+        <div id="setting_page_center">
+            <div id="setting_left">
+                <div id="setting_left_title"><span class="font_type">条件查询</span></div>
+                <div id="setting_search">
+                    <div>
+                        <!-- <input id="setting_search_id" class="query_value font_type" type="text" placeholder="此处输入id" /> -->
+                        <input id="setting_search_ismain" class="query_value font_type" type="text" placeholder="此处输入ismain" />
+                        <input id="setting_search_modulepath" class="query_value font_type" type="text" placeholder="此处输入modulepath" />
+                        <input id="setting_search_modulename" class="query_value font_type" type="text" placeholder="此处输入modulename" />
+                        <input id="setting_search_routerurl" class="query_value font_type" type="text" placeholder="此处输入routerurl" />
+                        <input id="setting_search_template" class="query_value font_type" type="text" placeholder="此处输入template" />
+                        <button id="setting_search_submit_button" class="font_type">查询</button>
+                    </div>
+                </div>
+            </div>
+            <div id="setting_list_right">
+                <div id="setting_list_right_title"><span class="font_type">查询结果</span></div>
+                <ul>
+
+                </ul>
+            </div>
+            <button id="create-user">添加新组件</button>
+        </div>
+
+        <div id="dialog-form">
+            <p class="validateTips">带有*的表单字段都是必填的。</p>
+
+            <form>
+                <fieldset>
+                    <label for="input_ismain">ismain：</label>
+                    <input type="text" name="input_ismain" id="input_ismain" class="text ui-widget-content ui-corner-all">
+                    <label for="input_modulepath">modulepath *：</label>
+                    <input type="text" name="input_modulepath" id="input_modulepath" value="" class="text ui-widget-content ui-corner-all">
+                    <label for="input_modulename">modulename *：</label>
+                    <input type="text" name="input_modulename" id="input_modulename" value="" class="text ui-widget-content ui-corner-all">
+                    <label for="input_routerurl">routerurl *：</label>
+                    <input type="text" name="input_routerurl" id="input_routerurl" value="" class="text ui-widget-content ui-corner-all">
+                    <label for="input_template">template：</label>
+                    <input type="text" name="input_template" id="input_template" value="" class="text ui-widget-content ui-corner-all">
+                </fieldset>
+            </form>
+        </div>
+        <div id="dialog_loading" title="提示">
+            <p>加载中...</p>
+            <div id="loading_bar"></div>
+        </div>
+        <div id="dialog_info" title="提示">
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>

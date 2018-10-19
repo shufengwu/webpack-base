@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户组件化配置</title>
+    <!-- <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/main.css"> -->
+    <script src="main.bundle.js"></script>
+</head>
+
+<body>
+    <div id="main_container">
+        <div id="pagetop">
+            <h2 id="pagetop_title" class="font_type">用户组件化配置</h2>
+        </div>
+        <div id="page_center">
+
+            <div id="list_left">
+                <div id="list_left_title"><span class="font_type">组件总表</span></div>
+                <ul>
+                    <!-- <li>上模组</li>
+                    <li>下模组</li>
+                    <li>治具归还</li>
+                    <li>治具借出</li>
+                    <li>治具上架位</li> -->
+                </ul>
+            </div>
+            <div id="build_result">
+                <div id="list_center_title"><span class="font_type">Build信息:</span></div>
+                <div id="build_result_text"></div>
+            </div>
+            <div id="list_right">
+                <div id="list_right_title"><span class="font_type">已选择组件列表</span></div>
+                <ol>
+                    <!-- <li class="placeholder">添加组件到这里</li> -->
+                </ol>
+            </div>
+            
+        </div>
+        <div id="page_bottom">
+            <button id="ok" class="font_type">提交并生成安装包</button>
+            <a href="#">安装包下载链接</a>
+        </div>
+        <div id="dialog_warn" title="提示">
+            <p>此组件已经存在</p>
+        </div>
+
+        <ul id="menu">
+            <li>删除</li>
+            <li>-</li>
+            <li>取消</li>
+        </ul>
+
+        <div id="dialog_loading" title="提示">
+            <p>加载中...</p>
+            <div id="loading_bar"></div>
+        </div>
+
+        <div id="dialog_info" title="提示">
+            <p></p>
+        </div>
+
+        <div id="dialog-form">
+            <p class="validateTips">带有*的表单字段都是必填的。</p>
+
+            <form>
+                <fieldset>
+                    <label for="input_applicationId">applicationId *：</label>
+                    <input type="text" name="input_applicationId" id="input_applicationId" class="text ui-widget-content ui-corner-all">
+                    <label for="input_applicationName">applicationName *：</label>
+                    <input type="text" name="input_applicationName" id="input_applicationName" value="" class="text ui-widget-content ui-corner-all">
+                    <label for="input_versionCode">versionCode *：</label>
+                    <input type="text" name="input_versionCode" id="input_versionCode" value="" class="text ui-widget-content ui-corner-all">
+                    <label for="input_versionName">versionName *：</label>
+                    <input type="text" name="input_versionName" id="input_versionName" value="" class="text ui-widget-content ui-corner-all">
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

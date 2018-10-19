@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+#main_container {
+    width: 1226px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#pagetop {
+    width: 1226px;
+    height: 60px;
+    background-color: #418AC8;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pagetop h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+#page_center {
+    position: relative;
+    width: 1226px;
+    height: 580px;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+}
+
+#list_left {
+    position: relative;
+    width: 400px;
+    height: 580px;
+    float: left;
+    z-index: 1;
+}
+
+#list_left_title {
+    width: 400px;
+    height: 40px;
+    background-color: #CCCCCC;
+}
+
+#list_left_title>span {
+    color: #333333;
+    font-size: 18px;
+    margin-left: 18px;
+    line-height: 40px;
+}
+
+#list_left>ul {
+    width: 400px;
+    height: 540px;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#list_left>ul>li {
+    width: 380px;
+    height: 50px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0px;
+}
+
+.list_style {
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+#list_right {
+    width: 400px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#list_right_title {
+    width: 400px;
+    height: 40px;
+    background-color: #CCCCCC;
+}
+
+#list_right_title>span {
+    color: #333333;
+    font-size: 18px;
+    margin-left: 18px;
+    line-height: 40px;
+}
+
+#list_right>ol {
+    width: 400px;
+    height: 540px;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 0px;
+}
+
+#list_right>ol>li {
+    width: auto;
+    height: 50px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    padding-left: 16px;
+    list-style: none;
+}
+
+#page_bottom {
+    width: 1226px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+}
+
+#ok {
+    width: 200px;
+    height: 40px;
+    background-color: #418AC8;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 10px 0px 0px 0px;
+    
+} 
+
+#page_bottom>a {
+    margin: 10px 0px 20px 0px;
+} 
+
+#dialog_warn {
+    display: none;
+    height: 240px;
+}
+
+#dialog_warn>p>span {
+    float: left;
+    margin: 0 0;
+}
+
+.ui-menu {
+    width: 150px;
+}
+
+#menu {
+    width: 100px;
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#loading_bar {
+    height: 20px;
+}
+
+#dialog-form input {
+    margin-bottom: 10px;
+}
+
+#dialog-form input.text {
+    margin-bottom: 0px;
+    width: 95%;
+    padding: 5px;
+}
+
+#dialog-form p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#dialog-form fieldset {
+    float: left;
+    margin: 5px;
+}
+
+#dialog-form fieldset input {
+    position: relative;
+    display: block;
+}
+
+#dialog-form fieldset label {
+    position: relative;
+    display: block;
+    margin-top: 5px;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+#page_bottom>a {
+    display: none;
+} 
+
+#build_result {
+    position: relative;
+    width: 400px;
+    height: 560px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px #888888;
+    float: right;
+    margin-right: 5px;
+}
+
+#list_center_title{
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    background-color: #CCCCCC;
+}
+
+#build_result_text{
+    height: 520px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:10px;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow-y: auto;
+    box-sizing: border-box;
+    font-size:10px;
+    /* color:white;
+    background-color: #000000;
+    border: 1px solid aqua; */
+    
+}

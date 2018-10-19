@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+#dialog-form input {
+    margin-bottom: 10px;
+}
+
+#dialog-form input.text {
+    margin-bottom: 0px;
+    width: 95%;
+    padding: 5px;
+}
+
+#setting_main_container {
+    width: 1226px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#setting_pagetop {
+    width: 1226px;
+    height: 60px;
+    background-color: #418AC8;
+    margin: 0px;
+    padding: 0px;
+}
+
+#setting_pagetop>h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+#setting_page_center {
+    width: 1226px;
+    height: 580px;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+}
+
+#setting_list_right {
+    width: 400px;
+    height: 580px;
+    float: right;
+}
+
+#setting_list_right_title {
+    width: 400px;
+    height: 40px;
+    background-color: #CCCCCC;
+}
+
+#setting_list_right_title>span {
+    color: #333333;
+    font-size: 18px;
+    margin-left: 18px;
+    line-height: 40px;
+}
+
+#setting_list_right>ul {
+    width: 400px;
+    height: 540px;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#setting_list_right>ul>li {
+    width: auto;
+    height: 50px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0px;
+}
+
+.list_style {
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+#setting_left {
+    width: 400px;
+    height: 580px;
+    float: left;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#setting_left_title {
+    width: 398px;
+    height: 40px;
+    background-color: #CCCCCC;
+    box-sizing: border-box;
+}
+
+#setting_left_title>span {
+    color: #333333;
+    font-size: 18px;
+    margin-left: 18px;
+    line-height: 40px;
+}
+
+#setting_search {
+    width: 400px;
+    height: 540px;
+    box-sizing: border-box;
+}
+
+#setting_search>div {
+    width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.query_value {
+    width: 380px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    padding: 0 5px 0 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#setting_search_submit_button {
+    width: 200px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}
+
+#dialog-form {
+    display: none;
+}
+
+#create-user{
+    position: position;
+    width: 200px;
+    margin:50px 112px;
+}
+
+#dialog-form p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#dialog-form fieldset{
+    float:left;
+    margin: 5px;
+}
+
+#dialog-form fieldset input{
+    position: relative;
+    display: block;
+}
+
+#dialog-form fieldset label{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#loading_bar{
+    height: 20px;
+}
